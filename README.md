@@ -1,7 +1,6 @@
-# yet-another-js-dev-env
-Yet another JavaScript Development Environment
+# Yet another JavaScript Development Environment
 
-This repository holds another freaking JavaScript dev environment, ready for you to check out and freaking be awesome with.
+This repository holds yet another freaking JavaScript dev environment, ready for you to check out and be freaking awesome with.
 - EditorConfig for consistent coding styles
 - NPM as package manager
 - Security Scanning on each start using nsp check
@@ -10,7 +9,7 @@ This repository holds another freaking JavaScript dev environment, ready for you
 - NPM Scripts for automation
 - Babel for transpiling
 
-**I am not actively maintaining it so if it is broken you fix it.
+**I am not actively maintaining it so if it is broken you are on your own buddy.**
 
 ## You know the drill
 
@@ -20,7 +19,7 @@ git clone https://github.com/Sarel-Esterhuizen/yet-another-js-dev-env  my-proj
 cd my-proj
 ```
 
-I have no intention of updating the source on `Sarel-Esterhuizen/yet-another-js-dev-env `.
+Assume I have no intention of updating the source on `Sarel-Esterhuizen/yet-another-js-dev-env `.
 Discard the `.git` folder..
 ```shell
 rm -rf .git  # OS/X (bash)
