@@ -1,0 +1,8 @@
+.git
+.gitignore
+CHANGELOG.md
+favicon.ico
+LICENSE
+non-essential-files.txt
+non-essential-files.osx.txt
+README.md
