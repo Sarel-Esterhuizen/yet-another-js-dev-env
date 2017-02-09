@@ -2,6 +2,13 @@
 Yet another JavaScript Development Environment
 
 This repository holds another freaking JavaScript dev environment, ready for you to check out and freaking be awesome with.
+- EditorConfig for consistent coding styles
+- NPM as package manager
+- Security Scanning on each start using nsp check
+- Express Server
+- Localtunnel for easy work sharing
+- NPM Scripts for automation
+- Babel for transpiling
 
 **I am not actively maintaining it so if it is broken you fix it.
 
@@ -36,7 +43,6 @@ rm non-essential-files.osx.txt
 ```shell
 for /f %i in (non-essential-files.txt) do del %i /F /S /Q
 rd .git /s /q
-rd e2e /s /q
 ```
 ## Create a new git repo
 You could [start writing code](#start-development) now and throw it all away when you're done.
@@ -49,7 +55,7 @@ git add .
 git commit -m "Initial commit"
 ```
 
->Recover the deleted `.gitignore` from the QuickStart repository 
+>Recover the deleted `.gitignore` from the yet-another-js-dev-env repository 
 if you lost it in the _Delete non-essential files_ step.
 
 Create a *remote repository* for this project on the service of your choice.
@@ -60,8 +66,6 @@ git remote add origin <repo-address>
 git push -u origin master
 ```
 ## Install npm packages
-
-> See npm and nvm version notes above
 
 Install the npm packages described in the `package.json` and verify that it works:
 
