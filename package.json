@@ -7,7 +7,7 @@
     "start": "npm-run-all --parallel security-check open:src",
     "open:src": "babel-node build_scripts/srcServer.js",
     "security-check": "nsp check",
-    "localtunnel": "lt --port 3001 --subdomain sarel",
+    "localtunnel": "lt --port 3001 --subdomain replacethissubdomain",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
   "author": "Sarel Esterhuizen",
