@@ -5,6 +5,9 @@ import open from 'open';
 import webpack from 'webpack';
 import config from '../webpack.config.dev';
 
+// Disable the console rule since this is a build script file.
+/* eslint-disable no-console */
+
 // Define our constants.
 const port = 3001;
 const app = express();

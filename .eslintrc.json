@@ -1,0 +1,20 @@
+{
+  "root": true, // This is the root ESLint file, ESLint will look for all configs.
+  "extends": [
+    "eslint:recommended", // Default recommended rules
+    "plugin:import/errors", // Plugin for enhanced linting for ES6 imports
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7, // Version of JavaScript ES2016
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true, // Expect certain global nodes
+    "node": true,
+    "mocha": true
+  },
+  "rules": { // Rule Overrides
+    "no-console": 1 // 1 = Warning, 2 = Error, Off = 0
+  }
+}
