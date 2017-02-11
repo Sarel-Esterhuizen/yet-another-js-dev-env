@@ -8,6 +8,7 @@ This repository holds yet another freaking JavaScript dev environment, ready for
 - Localtunnel for easy work sharing
 - NPM Scripts for automation
 - Babel for transpiling
+- ESLint for linting, with ES Watch configured
 
 **I am not actively maintaining it so if it is broken you are on your own buddy.**
 
