@@ -3,13 +3,15 @@
 This repository holds yet another freaking JavaScript dev environment, ready for you to check out and be freaking awesome with.
 - EditorConfig for consistent coding styles
 - NPM as package manager
-- Security Scanning on each start using nsp check
+- Security Scanning using nsp check configured on start
 - Express Server
 - Localtunnel for easy work sharing
-- NPM Scripts for automation
+- NPM Scripts for automation (Grunt and Gulp is so yesterday)
 - Babel for transpiling
 - Webpack for bundling
-- ESLint for linting, with ES Watch configured
+- Source map set to inline
+- ESLint for linting, dedicated config file, receommended ruleset plus ES6 import errors and warnings
+- ES Watch configured on start
 
 **I am not actively maintaining it so if it is broken you are on your own buddy.**
 

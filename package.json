@@ -10,7 +10,8 @@
     "lint:watch": "npm run lint -- --watch",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3001 --subdomain replacethissubdomain",
-    "share": "npm-run-all --parallel open:src localtunnel"
+    "share": "npm-run-all --parallel open:src localtunnel",
+    "test": "mocha --reporter progress build_scripts/testSetup.js \"src/**/*.spec.js\""
   },
   "author": "Sarel Esterhuizen",
   "license": "MIT",
