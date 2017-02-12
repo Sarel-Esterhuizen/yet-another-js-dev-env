@@ -4,7 +4,7 @@
   "description": "Yet another JS Dev Build Environment",
   "scripts": {
     "prestart": "babel-node build_scripts/startMessage.js",
-    "start": "npm-run-all --parallel security-check open:src lint:watch test:watch",
+    "start": "npm-run-all --parallel security-check open:src lint:watch test:watch start-mockapi",
     "open:src": "babel-node build_scripts/srcServer.js",
     "lint":"esw webpack.config.* src build_scripts --color",
     "lint:watch": "npm run lint -- --watch",
@@ -12,7 +12,10 @@
     "localtunnel": "lt --port 3001 --subdomain replacethissubdomain",
     "share": "npm-run-all --parallel open:src localtunnel",
     "test": "mocha --reporter progress build_scripts/testSetup.js \"src/**/*.spec.js\"",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "generate-mock-data": "babel-node build_scripts/generateMockData.js",
+    "prestart-mockapi": "npm run generate-mock-data",
+    "start-mockapi": "json-server --watch src/api/db.json --port 3002"
   },
   "author": "Sarel Esterhuizen",
   "license": "MIT",

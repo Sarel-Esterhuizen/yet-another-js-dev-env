@@ -5,7 +5,7 @@ getExampleEntities().then(result => {
 
   result.forEach(example => {
     exampleBody += `<tr>
-    <td>${example.name}</td>
+    <td>${example.email}</td>
     </tr>`;
   });
 

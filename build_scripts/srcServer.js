@@ -27,9 +27,9 @@ app.get('/', function (request, response) {
 app.get('/examples', function(req, res){
   // Hard coding example, please remove.
   res.json([
-    {"name": "Example 1"},
-    {"name": "Example 2"},
-    {"name": "Example 3"}
+    {"email": "example1@test.com"},
+    {"email": "example2@test.com"},
+    {"email": "example3@test.com"}
   ]);
 });
 
