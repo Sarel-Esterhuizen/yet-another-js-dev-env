@@ -13,7 +13,8 @@ This repository holds yet another  JavaScript dev environment, ready for you to 
 - ESLint for linting, dedicated config file, receommended ruleset plus ES6 import errors and warnings
 - ES Watch configured on start
 - Mocha for testing, configured upon start and watch.
--- Added Travis as the Continious Integration server
+- Added Travis as the Continious Integration server
+- Added Fetch support for APIs, using polyfill for older browsers. 
 
 **I am not actively maintaining it so if it is broken you are on your own buddy.**
 
