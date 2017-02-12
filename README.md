@@ -1,6 +1,6 @@
 # Yet another JavaScript Development Environment
 
-This repository holds yet another freaking JavaScript dev environment, ready for you to check out and be freaking awesome with.
+This repository holds yet another  JavaScript dev environment, ready for you to check out and be awesome with.
 - EditorConfig for consistent coding styles
 - NPM as package manager
 - Security Scanning using nsp check configured on start
@@ -12,7 +12,8 @@ This repository holds yet another freaking JavaScript dev environment, ready for
 - Source map set to inline
 - ESLint for linting, dedicated config file, receommended ruleset plus ES6 import errors and warnings
 - ES Watch configured on start
-- Mocha for testing
+- Mocha for testing, configured upon start and watch.
+-- Added Travis as the Continious Integration server
 
 **I am not actively maintaining it so if it is broken you are on your own buddy.**
 
