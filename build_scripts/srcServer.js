@@ -24,6 +24,15 @@ app.get('/', function (request, response) {
   response.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
+app.get('/examples', function(req, res){
+  // Hard coding example, please remove.
+  res.json([
+    {"name": "Example 1"},
+    {"name": "Example 2"},
+    {"name": "Example 3"}
+  ]);
+});
+
 // Tell express to listen to the port configured above.
 app.listen(port, function (error) {
   if (error)

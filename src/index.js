@@ -1,5 +1,13 @@
-import './index.css'
-import numeral from 'numeral';
+import { getExampleEntities } from './api/exampleApi';
 
-const someValue = numeral(1000).format('$0,0.00');
-console.log(`Inline inject ${someValue} right about here...`); // eslint-disable-line no-console
+getExampleEntities().then(result => {
+  let exampleBody = "";
+
+  result.forEach(example => {
+    exampleBody += `<tr>
+    <td>${example.name}</td>
+    </tr>`;
+  });
+
+  global.document.getElementById('exampleEntities').innerHTML = exampleBody;
+});

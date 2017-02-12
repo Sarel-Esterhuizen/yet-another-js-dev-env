@@ -11,7 +11,7 @@ describe('Example Unit Test', () => {
 
 // Example unit test showing hot to test using jsdom.
 describe('index.html', () => {
-  it('Should Say Go Forth', (done) => { // Whenever you do an async test add the done parameter.
+  it('Should Say Go forth and multiply..', (done) => { // Whenever you do an async test add the done parameter.
     const index = fs.readFileSync('./src/index.html', 'utf-8');
     jsdom.env(index, function (err, window) {
       const h1 = window.document.getElementsByTagName('h1')[0];
