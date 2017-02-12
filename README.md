@@ -15,6 +15,7 @@ This repository holds yet another  JavaScript dev environment, ready for you to 
 - Mocha for testing, configured upon start and watch.
 - Added Travis as the Continious Integration server
 - Added Fetch support for APIs, using polyfill for older browsers. 
+- For mocking declare Schema with JSON Schema Faker, Generate Random Data (faker.js, chance.js, randexp.js) and Serve data via API with JSON Server
 
 **I am not actively maintaining it so if it is broken you are on your own buddy.**
 

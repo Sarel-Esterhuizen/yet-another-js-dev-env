@@ -7,8 +7,19 @@ export function getExampleEntities() {
   return get('examples');
 }
 
+export function deleteExampleEntity(id){
+  return del(`examples/${id}`);
+}
+
 function get(url){
   return fetch(baseUrl + url).then(onSuccess, onError);
+}
+
+function del(url){
+  const request = new Request(baseUrl + url, {
+    method: 'DELETE'
+  });
+  return fetch(request).then(onSuccess, onError);
 }
 
 function onSuccess(response){
